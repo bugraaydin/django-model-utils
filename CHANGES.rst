@@ -1,7 +1,11 @@
 CHANGES
 =======
 
-4.0.1 (unreleased)
+Next release (tbc)
+------------------
+- Applied `isort` to codebase (Refs GH-#402)
+
+4.1.0 (2020-11-29)
 ------------------
 - Update InheritanceQuerySetMixin to avoid querying too much tables
 - TimeStampedModel now automatically adds 'modified' field as an update_fields
@@ -15,6 +19,14 @@ CHANGES
 - StatusModel now automatically adds 'status_changed' field during save as an
   update_fieldsparameter when 'status' is present in it to make sure it is not
   forgotten.
+<<<<<<< HEAD
+=======
+- Update test requirements
+- Move tests to GitHub Actions: https://github.com/jazzband/django-model-utils/actions
+- Drop support for `Django 2.1`
+- Add support for `Python 3.9`
+- Add support for `Django 3.1`
+>>>>>>> 79ff8ea6bee35aa2da87b87837906aeea075b91c
 
 4.0.0 (2019-12-11)
 ------------------
